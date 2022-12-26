@@ -1,5 +1,4 @@
 alp =list(str(input()))
-print(alp)
 
 if list(reversed(alp)) == alp:
     print(1)
