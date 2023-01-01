@@ -10,7 +10,7 @@
 #         alcohol[schoolname] = bottle
 #     print(alcohol)
 #     max = max(alcohol.values())
-#     print(k for k,v in alcohol.items() if v ==max)
+#     print(str(k for k,v in alcohol.items() if v =='max'))
 
 T = int(input())
 
@@ -24,3 +24,4 @@ for _ in range(T):
         
     alcohol = sorted(alcohol, key = lambda x: x[1])
     print(alcohol[-1][0])
+
